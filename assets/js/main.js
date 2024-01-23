@@ -48,6 +48,12 @@
       }
     }
   });
+  
+  //fade-in
+  document.addEventListener('DOMContentLoaded', function () {
+    const fadeContainer = document.querySelector('.fade-in-container');
+    fadeContainer.classList.add('fade-in');
+  });
 
   // Activate/show sections on load with hash links
   if (window.location.hash) {
