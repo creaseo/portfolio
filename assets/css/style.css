@@ -285,7 +285,10 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   top: 0;
   right: 0;
-  background: #09203a;
+  background: #002222;
+  /* original color navy: #09203a */
+  /* experimental color dark teal: #002424 */
+  /* forest green: #22311d */
 }
 
 #header.header-top .social-links, #header.header-top h2 {
@@ -491,7 +494,7 @@ section .container {
   display: flex;
   align-items: center;
   padding: 20px;
-  background: #09203a;
+  background: #002222;
   transition: ease-in-out 0.3s;
 }
 
